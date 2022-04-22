@@ -1,6 +1,27 @@
 {
   "dependencies": {
-    "jest": "^27.5.1",
+    "express": "^4.17.3",
     "mysql2": "^2.3.3"
+  },
+  "name": "u-develop-it",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixiepucker/u-develop-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixiepucker/u-develop-it/issues"
+  },
+  "homepage": "https://github.com/pixiepucker/u-develop-it#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
