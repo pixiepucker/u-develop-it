@@ -21,7 +21,11 @@ const db = mysql.createConnection(
     console.log('Connected to the election database.')
 );
 
-//2nd to LAST: default response for any other request (NOT FOUND)
+db.query(`SELECT * FROM candidates`, (err,rows) => {
+    console.log(rows);
+});
+
+//2nd to LAST: catchall response for any other request (NOT FOUND)
 app.get((req,res) => {
     res.status(404).end();
 });
